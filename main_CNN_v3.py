@@ -132,7 +132,7 @@ Scale_SR            = 1 #scale the strain rate / rotation rate tensors 'none', '
 Scale_TB            = 1 #scale the tensor basis according to Ling et al.
 Scale_inv           = 1 #scale the invariants to std 1 and mean 0 
 Cap_inv             = 5 # filter the invariants for std>Cap, std<-Cap
-reload_data         = 0
+reload_data         = 1
 SecondaryFeatures = ['k'] #whether to use more features than just S and R: use 'k' for grad(k) features, and 'U' for velocity magnitude
 
 n_feat = 11
