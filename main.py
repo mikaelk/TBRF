@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 import sys
 
 from sklearn.ensemble import RandomForestRegressor
-from tbnn import NetworkStructure, TBNN                                        #Tensor Basis Neural Network, see https://github.com/tbnn/tbnn
+#from tbnn import NetworkStructure, TBNN                                        #Tensor Basis Neural Network, see https://github.com/tbnn/tbnn
 from tbdt_v8 import TBDT                                                       #Tensor Basis Decision Tree algorithm
 from tbrf_v4 import TBRF                                                       #Tensor Basis Random Forest algorithm
 import PyFOAM as pyfoam                                                        #functions for turbulence modelling and OpenFOAM
